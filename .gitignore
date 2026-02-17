@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build and runtime
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Env and secrets
+.env
+.env.local
+.env.*.local
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+.pnpm-debug.log*
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.log
+.cache
